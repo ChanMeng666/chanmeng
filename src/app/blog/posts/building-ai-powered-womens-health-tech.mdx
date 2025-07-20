@@ -42,7 +42,7 @@ The integration with IBM watsonx AI presented unique challenges:
 // Ensuring complete data isolation
 interface TenantConfig {
   id: string;
-  encryption: AES256;
+  encryption: 'AES256';
   dataIsolation: 'complete';
   compliance: ['GDPR', 'HIPAA'];
 }
