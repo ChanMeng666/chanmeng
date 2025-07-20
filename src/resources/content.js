@@ -1,16 +1,16 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Chan",
+  lastName: "Meng",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Web/Mobile App & AI/ML Infrastructure Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "chanmeng.career@gmail.com",
+  location: "Pacific/Auckland", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Chinese"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -18,8 +18,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about web development, AI/ML infrastructure, and share insights on building
+      impactful technology solutions for women's health and workplace wellness.
     </>
   ),
 };
@@ -30,17 +30,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/chanmeng666",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.linkedin.com/in/chanmeng666/",
   },
   {
     name: "Email",
@@ -55,16 +50,17 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building impactful solutions at the intersection of AI and women's health</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    title: <>Recent project: <strong className="ml-4">Sanicle.Cloud</strong></>,
+    href: "/work/sanicle-cloud-workplace-womens-health",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Chan Meng, a full-stack developer specializing in women's health technology.
+      <br />Currently driving innovation as CTO at FreePeriod and AI/ML Infrastructure Engineer at Sanicle,
+      <br />delivering enterprise-grade solutions with AI integration.
     </>
   ),
 };
@@ -82,7 +78,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -90,9 +86,15 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Full-stack developer with specialized expertise in women's health technology, combining
+        React/Next.js, TypeScript, Python, and cloud infrastructure to build impactful web
+        applications. Distinguished speaker at the UN CSW 69 Beyond Beijing 30 Conference,
+        showcasing how AI technology effectively addresses workplace gender inequities.
+        <br /><br />
+        Passionate mentor dedicated to supporting women in STEM through the Forward with Her program,
+        with proven impact across a diverse network of mentees from prestigious universities.
+        Master's graduate with Distinction from Lincoln University, bringing academic excellence
+        and practical implementation skills to every project.
       </>
     ),
   },
@@ -101,41 +103,85 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Sanicle",
+        timeframe: "Mar 2025 - Present",
+        role: "Senior AI/ML Infrastructure Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Led the development of two key products that helped Sanicle achieve IBM Silver Partner
+            certification through close collaboration with the IBM team.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Designed and developed Sanicle's corporate website using Next.js 15 and React 19,
+            integrating IBM Cloud watsonx AI as an interactive customer service assistant.
+          </>,
+          <>
+            Engineered Sanicle.Cloud, a comprehensive SaaS platform for workplace women's health
+            management with predictive absenteeism alerts and AI-powered health consultations.
+          </>,
+          <>
+            Built secure multi-tenant architecture with end-to-end encryption and GDPR compliance,
+            ensuring complete data isolation between organizations.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "FreePeriod",
+        timeframe: "Nov 2024 - Present",
+        role: "Full-Stack Developer & CTO",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Leading software development for a HKUST(GZ)-incubated startup that builds smart
+            vending systems for feminine hygiene products in public spaces.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Architected full-stack solution using Next.js 14 with App Router, built responsive
+            interface using React 18, Tailwind CSS, and shadcn/ui.
+          </>,
+          <>
+            Created custom i18n solution for English-Chinese localization and implemented
+            location services with Google Maps API and analytics dashboard.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "ByteDance",
+        timeframe: "Nov 2024 - Mar 2025",
+        role: "Backend Developer",
+        achievements: [
+          <>
+            Contributed to TikTok's microservices-based ecommerce platform development,
+            integrating AI recommendations within a 7-member team.
+          </>,
+          <>
+            Developed core microservices using Spring Cloud for user authentication,
+            product management, and order processing.
+          </>,
+          <>
+            Integrated Qwen LLM API for intelligent product recommendations and
+            built responsive UI components with Vue3 and Element Plus.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "CORDE",
+        timeframe: "Jun 2024 - Nov 2024",
+        role: "Mobile Application Developer",
+        achievements: [
+          <>
+            Led frontend development and database architecture of offline-first mobile
+            application for field maintenance operations.
+          </>,
+          <>
+            Designed SQLite database schema scaling to 18 tables for offline data management
+            with automated background sync and real-time status monitoring.
+          </>,
+          <>
+            Developed React Native mobile UI with dark/light themes and integrated
+            ArcGIS mapping services with GPS tracking.
           </>,
         ],
         images: [],
@@ -147,12 +193,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Lincoln University",
+        description: <>Master of Applied Computing (Nov 2023 - Dec 2024) - Dean's List Honoree (top 5%) with Distinction (GPA above 80%)</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Jiangsu Normal University",
+        description: <>Bachelor of Geography Science (Sep 2012 - Jun 2016) - with Distinction (GPA above 80%)</>,
       },
     ],
   },
@@ -161,36 +207,29 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Frontend Development",
+        description: <>React, Next.js, Angular, TypeScript, JavaScript, Tailwind CSS, Redux, Framer Motion, Three.js</>,
+        images: [],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Backend Development",
+        description: <>Node.js, Express, Python (Flask, FastAPI), Java (Spring Cloud), REST API, WebSocket, Real-time Data Processing</>,
+        images: [],
+      },
+      {
+        title: "AI/ML Infrastructure",
+        description: <>IBM Cloud watsonx AI integration, LLM API implementation, predictive analytics, AI-powered recommendation systems</>,
+        images: [],
+      },
+      {
+        title: "Databases & DevOps",
+        description: <>PostgreSQL, MongoDB, MySQL, SQLite, Database Design, Query Optimization, Docker, Agile Methodologies</>,
+        images: [],
+      },
+      {
+        title: "Languages",
+        description: <>TypeScript, JavaScript, Python, Java, Go, HTML, CSS, SQL, R</>,
+        images: [],
       },
     ],
   },
@@ -199,7 +238,7 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about web development, AI/ML, and women's health tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -209,7 +248,7 @@ const work = {
   path: "/work",
   label: "Work",
   title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  description: `Full-stack development and AI/ML projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
