@@ -15,11 +15,11 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Subscribe to {person.firstName}&apos;s Newsletter</>,
   description: (
     <>
       I occasionally write about web development, AI/ML infrastructure, and share insights on building
-      impactful technology solutions for women's health and workplace wellness.
+      impactful technology solutions for women&apos;s health and workplace wellness.
     </>
   ),
 };
@@ -48,9 +48,9 @@ const home = {
   path: "/",
   image: "/images/og/home.jpg",
   label: "Home",
-  title: `${person.name}'s Portfolio`,
+  title: `${person.name}&apos;s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building impactful solutions at the intersection of AI and women's health</>,
+  headline: <>Building impactful solutions at the intersection of AI and women&apos;s health</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Sanicle.Cloud</strong></>,
@@ -58,7 +58,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Chan Meng, a full-stack developer specializing in women's health technology.
+      I&apos;m Chan Meng, a full-stack developer specializing in women&apos;s health technology.
       <br />Currently driving innovation as CTO at FreePeriod and AI/ML Infrastructure Engineer at Sanicle,
       <br />delivering enterprise-grade solutions with AI integration.
     </>
@@ -86,14 +86,14 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Full-stack developer with specialized expertise in women's health technology, combining
+        Full-stack developer with specialized expertise in women&apos;s health technology, combining
         React/Next.js, TypeScript, Python, and cloud infrastructure to build impactful web
         applications. Distinguished speaker at the UN CSW 69 Beyond Beijing 30 Conference,
         showcasing how AI technology effectively addresses workplace gender inequities.
         <br /><br />
         Passionate mentor dedicated to supporting women in STEM through the Forward with Her program,
         with proven impact across a diverse network of mentees from prestigious universities.
-        Master's graduate with Distinction from Lincoln University, bringing academic excellence
+        Master&apos;s graduate with Distinction from Lincoln University, bringing academic excellence
         and practical implementation skills to every project.
       </>
     ),
@@ -112,11 +112,11 @@ const about = {
             certification through close collaboration with the IBM team.
           </>,
           <>
-            Designed and developed Sanicle's corporate website using Next.js 15 and React 19,
+            Designed and developed Sanicle&apos;s corporate website using Next.js 15 and React 19,
             integrating IBM Cloud watsonx AI as an interactive customer service assistant.
           </>,
           <>
-            Engineered Sanicle.Cloud, a comprehensive SaaS platform for workplace women's health
+            Engineered Sanicle.Cloud, a comprehensive SaaS platform for workplace women&apos;s health
             management with predictive absenteeism alerts and AI-powered health consultations.
           </>,
           <>
@@ -152,7 +152,7 @@ const about = {
         role: "Backend Developer",
         achievements: [
           <>
-            Contributed to TikTok's microservices-based ecommerce platform development,
+            Contributed to TikTok&apos;s microservices-based ecommerce platform development,
             integrating AI recommendations within a 7-member team.
           </>,
           <>
@@ -194,7 +194,7 @@ const about = {
     institutions: [
       {
         name: "Lincoln University",
-        description: <>Master of Applied Computing (Nov 2023 - Dec 2024) - Dean's List Honoree (top 5%) with Distinction (GPA above 80%)</>,
+        description: <>Master of Applied Computing (Nov 2023 - Dec 2024) - Dean&apos;s List Honoree (top 5%) with Distinction (GPA above 80%)</>,
       },
       {
         name: "Jiangsu Normal University",
