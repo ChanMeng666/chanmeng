@@ -1,0 +1,6 @@
+# Force LF line endings for MDX files to prevent parsing issues
+*.mdx text eol=lf
+*.md text eol=lf
+
+# Auto detect text files and perform LF normalization
+* text=auto
